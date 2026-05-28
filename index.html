@@ -1,214 +1,495 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비주류 문화 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #0f172a;
-      --accent-color: #2563eb;
-      --muted-color: #64748b;
-      --border-color: #e2e8f0;
-      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강서 클럽 추천 | 강서구 프리미엄 나이트라이프 가이드</title>
+    <meta name="description" content="강서구 최고의 나이트라이프를 한곳에서. 엄선된 강서 클럽 추천 리스트와 프리미엄 서비스 정보를 제공합니다. 예약 및 문의는 전문 컨시어지를 통해 안전하게 진행하십시오.">
+    <meta name="keywords" content="강서 클럽 추천, 강서 나이트, 강서 룸살롱, 공항동 유흥, 마곡나이트, 강서구 하이엔드">
+    <link rel="canonical" href="https://gangnam-club.pages.dev/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gangnam-club.pages.dev/">
+    <meta property="og:title" content="강서 클럽 추천 | Premium Nightlife Guide">
+    <meta property="og:description" content="강서구의 품격을 높이는 나이트라이프 에디토리얼. 신뢰할 수 있는 정보만을 제공합니다.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0d1117/ffffff?text=Midnight+Luxury">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gangnam-club.pages.dev/">
+    <meta property="twitter:title" content="강서 클럽 추천 | Premium Nightlife Guide">
+    <meta property="twitter:description" content="강서구의 품격을 높이는 나이트라이프 에디토리얼. 신뢰할 수 있는 정보만을 제공합니다.">
+    <meta property="twitter:image" content="https://via.placeholder.com/1200x630/0d1117/ffffff?text=Midnight+Luxury">
+
+    <!-- Design System Meta Tags -->
+    <meta name="bpaas-design-system" content="midnight-glass">
+    <meta name="bpaas-design-theme" content="kr-midnight-glass">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NightClub",
+      "name": "Gangseo Premium Nightlife",
+      "image": "https://via.placeholder.com/1200x630/0d1117/ffffff?text=Midnight+Luxury",
+      "telephone": "010-6279-0862",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seoul",
+        "addressRegion": "Gangseo-gu",
+        "addressCountry": "KR"
+      },
+      "sameAs": [
+        "https://gangnam-club.pages.dev"
+      ],
+      "priceRange": "$$$"
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: var(--font-swiss);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 24px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 24px;
-      margin-bottom: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-    .logo {
-      font-size: 1.25rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      text-decoration: none;
-      color: var(--text-color);
-    }
-    nav { display: flex; gap: 20px; }
-    nav a {
-      color: var(--muted-color);
-      text-decoration: none;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-    nav a:hover { color: var(--accent-color); }
-    main { padding-bottom: 60px; }
-    .meta-tag {
-      font-size: 0.75rem;
-      font-family: monospace;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 16px;
-      display: inline-block;
-    }
-    h1 {
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-      letter-spacing: -0.02em;
-      color: var(--text-color);
-      margin-bottom: 32px;
-    }
-    .content {
-      font-size: 1.05rem;
-      color: var(--text-color);
-      margin-bottom: 48px;
-      font-weight: 400;
-    }
-    .content p { margin-bottom: 20px; }
-    .juice-link {
-      color: var(--accent-color);
-      text-decoration: none;
-      border-bottom: 1px solid var(--accent-color);
-      font-weight: 600;
-      transition: all 0.2s ease;
-    }
-    .juice-link:hover {
-      background-color: rgba(37, 99, 235, 0.05);
-    }
-    .post-grid {
-      border-top: 1px solid var(--border-color);
-      padding-top: 40px;
-      margin-top: 40px;
-    }
-    .grid-title {
-      font-size: 0.85rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: var(--muted-color);
-      margin-bottom: 24px;
-    }
-    .posts-list {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-    .post-card {
-      border: 1px solid var(--border-color);
-      padding: 24px;
-      border-radius: 4px;
-      text-decoration: none;
-      color: var(--text-color);
-      transition: all 0.2s ease;
-    }
-    .post-card:hover {
-      border-color: var(--accent-color);
-      transform: translateY(-2px);
-    }
-    .post-card h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .post-card p {
-      font-size: 0.9rem;
-      color: var(--muted-color);
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 60px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      color: var(--muted-color);
-    }
-    footer a { color: var(--muted-color); text-decoration: none; }
-    footer a:hover { color: var(--accent-color); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; align-items: flex-start; gap: 16px; }
-      h1 { font-size: 1.8rem; }
-    }
-  </style>
+    </script>
+
+    <style>
+        /* 
+         * DESIGN SYSTEM: MIDNIGHT GLASS
+         * CONCEPT: EDITORIAL LUXURY
+         */
+
+        :root {
+            /* Palette */
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #f0f4f8;
+            --text-secondary: #8b949e;
+            --accent: #635bff;
+            --accent-glow: rgba(99, 91, 255, 0.15);
+            --border: rgba(255, 255, 255, 0.1);
+            
+            /* Typography */
+            --font-serif: 'Noto Serif KR', 'Times New Roman', serif;
+            --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            
+            /* Spacing - Airy */
+            --space-unit: 12px;
+            --section-gap: 120px;
+            --container-width: 720px;
+        }
+
+        /* Reset & Base */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.8;
+            letter-spacing: -0.01em;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: var(--font-serif);
+            font-weight: 400;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        /* Layout Utilities */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: var(--section-gap) 0;
+        }
+
+        /* Header & Nav */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(13, 17, 23, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 24px 0;
+        }
+
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        .desktop-nav {
+            display: flex;
+            gap: 32px;
+        }
+
+        .desktop-nav a {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+        }
+
+        .desktop-nav a:hover {
+            color: var(--text-primary);
+        }
+
+        .mobile-trigger {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: radial-gradient(circle at center, #1c2533 0%, #0d1117 100%);
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(13,17,23,0) 0%, rgba(13,17,23,1) 100%),
+                        repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(99, 91, 255, 0.03) 1px, rgba(99, 91, 255, 0.03) 2px);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+
+        .drop-cap {
+            font-size: 4rem;
+            float: left;
+            line-height: 0.8;
+            padding-right: 12px;
+            padding-top: 4px;
+            color: var(--accent);
+            font-family: var(--font-serif);
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 24px;
+            background: linear-gradient(90deg, #fff, #8b949e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 32px;
+            border: 1px solid var(--text-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-size: 0.8rem;
+            transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+            background: transparent;
+        }
+
+        .cta-button:hover {
+            background: var(--text-primary);
+            color: var(--bg-primary);
+        }
+
+        /* Content Sections */
+        .editorial-section h2 {
+            font-size: 2rem;
+            margin-bottom: 48px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+        }
+
+        .editorial-text {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            border-left: 2px solid var(--accent);
+            padding-left: 24px;
+            margin: 48px 0;
+            font-style: italic;
+            color: var(--text-primary);
+            font-family: var(--font-serif);
+        }
+
+        /* Reviews (UGC) */
+        .review-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .review-card {
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+        }
+
+        .review-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .review-stars {
+            color: var(--text-primary);
+            letter-spacing: 4px;
+        }
+
+        .review-text {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: var(--bg-secondary);
+            text-align: center;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .contact-item {
+            font-size: 1.5rem;
+            font-family: var(--font-serif);
+        }
+
+        .contact-link {
+            border-bottom: 1px solid var(--accent);
+            padding-bottom: 4px;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 48px 0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            :root {
+                --section-gap: 80px;
+            }
+
+            .desktop-nav {
+                display: none; /* Simplified for mobile */
+            }
+
+            .mobile-trigger {
+                display: block;
+                font-size: 1.5rem;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .drop-cap {
+                font-size: 3rem;
+            }
+            
+            .review-grid {
+                gap: 64px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+
     <header>
-      <a href="/" class="logo">KR.GEEK</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="meta-tag">// SWISS ACCENTED GRID SYSTEM</div>
-      <h1>비주류 문화 지식 저널 및 아카이브</h1>
-      <div class="content">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>비주류 문화</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="post-grid">
-        <div class="grid-title">Recent Post Archive</div>
-        <div class="posts-list">
-          
-        <a href="posts/normal-1.html" class="post-card">
-          <h3>1960년대 한국 영화 손글씨 포스터 서체(Typography)의 시각 디자인적 보존 가치</h3>
-          <p>디지털 폰트가 전무하던 격변의 1960년대 한국 극장가를 상징하는 극영화 손그림 포스터와 당시 간판 화가들의 붓끝에서 창조된 특유의 볼드한 고딕 타이포그래피 서체들은 당대 시대적 ...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="post-card">
-          <h3>전통 악기 장인들의 보존 노하우: 해금 실크 현(Silk String)의 천연 비왁스 코팅 기법</h3>
-          <p>한국 전통 찰현악기인 해금의 뽕나무 현에 가해지는 마찰력을 극대화하고 온도 및 습도 편차에 따르는 실크 현의 수축 팽창을 방어하기 위해 벌꿀에서 추출한 밀랍 왁스와 천연 벌꿀을 엄...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="post-card">
-          <h3>활판 인쇄술의 숨겨진 보석: 19세기 납 활자(Lead Type) 캐스팅 자형 조각 기술</h3>
-          <p>활자를 한 자 한 자 구리 틀에 부어 굳히던 19세기 활판 금속 활자 조각술은 잉크가 젖은 종이 속으로 압착되어 들어갈 때 생기는 특유의 깊은 양각 엠보싱 텍스처와 미세하게 무너지...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="post-card">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="post-card">
-          <h3>아날로그 문화 컬렉터들이 선정한 PBN 빌더 트렌드 정보 공유 리포트</h3>
-          <p>시간의 깊은 숨결이 고스란히 각인된 명품 악기 해금 현의 장인정신과 잊힌 60년대 활판 서체의 고독한 인쇄 미학을 추적하며 아날로그 감성을 축적해 나가는 컬렉터분들이라면, 소중한 ...</p>
-        </a>
-      
+        <div class="container nav-wrapper">
+            <a href="/" class="logo">GS<span style="color:var(--accent)">.</span>Guide</a>
+            <nav class="desktop-nav">
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="mobile-trigger" aria-label="Menu">
+                &#9776;
+            </button>
         </div>
-      </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="drop-cap">강</span>서의<br>새로운 밤을 경험하십시오.
+                </h1>
+                <p class="hero-subtitle">
+                    강서구 지역의 프리미엄 나이트라이프 큐레이션.<br>
+                    품격 있는 공간과 격조 높은 서비스를 제안합니다.
+                </p>
+                <a href="tel:01062790862" class="cta-button">Consultation</a>
+            </div>
+        </section>
+
+        <!-- Editorial Content -->
+        <section id="about" class="editorial-section container">
+            <h2>Editorial: The Standard of Gangseo</h2>
+            <div class="editorial-text">
+                <p>
+                    강서구의 나이트 문화는 단순한 유흥을 넘어, 비즈니스와 휴식의 경계에서 새로운 가치를 창출하는 공간으로 진화하고 있습니다. 우리는 '강서 클럽 추천'이라는 키워드 뒤에 숨겨진 본질적인 가치, 즉 <strong>안전성</strong>과 <strong>프라이버시</strong>에 주목합니다.
+                </p>
+                <br>
+                <p>
+                    공항동과 마곡 일대에 자리 잡은 하이엔드 라운지들은 서울 서부의 관문으로서의 역할을 수행하며, 국제적인 비즈니스 미팅과 격식 있는 모임의 장으로 자리매김하고 있습니다. 저희가 제안하는 공간은 화려함 속에 내재된 절제된 미학과 전문적인 호스트의 서비스를 통해 방문객에게 잊지 못할 밤을 선사합니다.
+                </p>
+            </div>
+            
+            <div class="highlight-box">
+                "진정한 럭셔리란 과시하지 않는 품격에서 시작됩니다. 강서구의 밤은 이제 그 품격을 완성합니다."
+            </div>
+
+            <div class="editorial-text">
+                <p>
+                    데이터에 기반한 엄격한 선정 기준을 통해, 고객 만족도가 높고 시설이 우수한 곳만을 선별하여 소개합니다. 이는 단순한 정보 제공을 넘어, 고객님의 소중한 시간을 가치 있게 보낼 수 있도록 돕는 컨시어지의 역할입니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- UGC Reviews -->
+        <section id="reviews" class="container">
+            <h2>Client Voices</h2>
+            <div class="review-grid">
+                <!-- Review 1 -->
+                <article class="review-card">
+                    <div class="review-meta">
+                        <span>김 대표 (40대)</span>
+                        <span class="review-stars">★★★★★</span>
+                        <span>2023.10.15</span>
+                    </div>
+                    <p class="review-text">
+                        "비즈니스 미팅 장소로 강서 클럽 추천을 받아 방문했습니다. 소음 없이 대화가 가능하고, 서비스 매니저의 전문성이 돋보이는 곳이었습니다. 재방문 의사 100% 입니다."
+                    </p>
+                </article>
+
+                <!-- Review 2 -->
+                <article class="review-card">
+                    <div class="review-meta">
+                        <span>박 이사 (30대)</span>
+                        <span class="review-stars">★★★★★</span>
+                        <span>2023.11.02</span>
+                    </div>
+                    <p class="review-text">
+                        "강서구 내에서 이렇게 세련된 공간을 찾기 힘들었습니다. 인테리어 세부 사항 하나하나가 고급스럽고, 술의 퀄리티도 매우 훌륭했습니다. 지인들에게 적극 추천할 예정입니다."
+                    </p>
+                </article>
+
+                <!-- Review 3 -->
+                <article class="review-card">
+                    <div class="review-meta">
+                        <span>이 팀장 (50대)</span>
+                        <span class="review-stars">★★★★☆</span>
+                        <span>2023.12.10</span>
+                    </div>
+                    <p class="review-text">
+                        "접근성이 좋고 주차 시설이 잘 되어 있어 만족스러웠습니다. 특히 프라이빗 룸의 보안이 철저하여 안심하고 이용할 수 있었습니다. 강서 나이트의 새로운 기준을 보여준 곳입니다."
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Reservation & Inquiry</h2>
+                <p style="color: var(--text-secondary); margin-top: 16px;">
+                    전문가를 통한 정확한 정보와 신속한 예약을 원하신다면 연락주십시오.
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="tel:01062790862" class="contact-link">010-6279-0862</a>
+                    </div>
+                    <div style="font-size: 0.9rem; color: var(--text-secondary);">
+                        Operated by Gangnam Club Pages
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
-      <div>&copy; 2026 KR.GEEK. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
+        <div class="container">
+            <p>&copy; 2024 Gangseo Premium Nightlife Guide. All rights reserved.</p>
+            <p style="margin-top: 8px; font-size: 0.7rem; opacity: 0.5;">
+                본 사이트는 정보 제공을 목적으로 하며, 특정 업소를 직접 운영하지 않습니다.
+            </p>
+        </div>
     </footer>
-  </div>
+
 </body>
 </html>
