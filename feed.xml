@@ -1,20 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[강서 강서 클럽 추천]]></title>
-  <link>https://gangnam-club.pages.dev</link>
-  <description><![CDATA[강서 클럽 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 15:37:47 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 15:37:47 GMT</lastBuildDate>
-  <atom:link href="https://gangnam-club.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[클럽]]></title>
+  <link>https://dydrkrtks7-cmd.github.io/bp-gangnam-club</link>
+  <description><![CDATA[클럽 - 강서 클럽 추천 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Tue, 09 Jun 2026 23:37:58 GMT</pubDate>
+  <lastBuildDate>Tue, 09 Jun 2026 23:37:58 GMT</lastBuildDate>
+  <atom:link href="https://dydrkrtks7-cmd.github.io/bp-gangnam-club/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[강서 강서 클럽 추천 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://gangnam-club.pages.dev/</link>
-      <guid isPermaLink="true">https://gangnam-club.pages.dev/</guid>
-      <description><![CDATA[강서 클럽 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 15:37:47 GMT</pubDate>
+      <title><![CDATA[트렌드 급등? 그거 내 데이터로 보니까 함정인데, 팩트 체크 들어갑니다]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/guide-003.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/guide-003.html</guid>
+      <description><![CDATA[아니, 요즘 뭐만 하면 스노든이 공개한 NSA 프리즘 슬라이드 갖고들 난리잖아? 근데 솔직히 말해서, 언론에서 떠드는 거 다 믿으면 안 돼. 특히 그놈의 '슬라이드 7'. 이거 가지고 막 '미국 정부가 모든 걸 감시한다!' 이러는데, 좀 더 깊이 파고들어야 한다고. 내]]></description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/interview-001-x9h6tr.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/interview-001-x9h6tr.html</guid>
+      <description><![CDATA[### 글룸헤이븐 1판과 2판 사이 클래스 카드 변경 요인 및 밸런스 분석 아, 진짜... 글룸헤이븐의 클래스 카드 7종 중 가장 눈에 띄는 변화는 무엇일까? 그 질문으로 시작해 보자. 우선, 이번 포스트에서는 1판과 2판 사이에 변경된 7개의 클래스 카드와 그로 인한]]></description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[음모론? 아니, 데이터로 본 스노든, 그 너머의 진실]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/review-001.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/review-001.html</guid>
+      <description><![CDATA[nsa, prism, edward snowden, classified documents, slide 7, data analysis, google trends, keyword spike, pattern recognition, information security, gov]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[강서 클럽 추천은 나의 나이키 SB 던크 저니와 함께 시작된다]]></title>
+      <link>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/review-002.html</link>
+      <guid isPermaLink="true">https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/review-002.html</guid>
+      <description><![CDATA[요즘 내가 가장 많이 생각하는 건, 2003년 나이키 SB Dunk Low 파리 한정판과 2021년 레트로판의 차이점이야. 특히 스티치 밀도와 박스지 재질이 어떻게 다른지 비교해보고 싶어. 내게는 나이키 SB 던크는 단순한 스니커즈가 아니야. 그것은 나의 청춘과 추억이]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
