@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/guide-001-p5o77b.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/guide-003.html</loc>
@@ -15,6 +21,12 @@
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/interview-001-x9h6tr.html</loc>
     <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/posts/qa-002-p5o77b.html</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -32,7 +44,7 @@
   </url>
   <url>
     <loc>https://dydrkrtks7-cmd.github.io/bp-gangnam-club/feed.xml</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
