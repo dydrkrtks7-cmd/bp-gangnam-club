@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yonggang-nightlife-note.nrb-mapo-hub.xyz/sitemap.xml
+Sitemap: https://gangseo-review-note.mapo-room-guide.xyz/sitemap.xml
+Sitemap: https://gangseo-review-note.mapo-room-guide.xyz/sitemap-pages.xml
