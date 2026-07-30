@@ -1,10 +1,4 @@
 User-agent: *
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-Sitemap: https://gangseo-review-note.mapo-room-guide.xyz/sitemap.xml
+Sitemap: https://yonggang-nightlife-note.nrb-mapo-hub.xyz/sitemap.xml
